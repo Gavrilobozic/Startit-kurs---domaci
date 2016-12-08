@@ -1,0 +1,25 @@
+body {text-align:center; 
+      background-image: url(https://s-media-cache-ak0.pinimg.com/originals/a8/8d/6b/a88d6b1900ef63da0463185387866221.jpg);
+      background-repeat: no-repeat;
+      background-clip: content-box;
+      background-size:cover;
+}
+p:nth-child(even) {
+	color:#660000;
+	font-weight: bold;
+}
+
+h1 {
+	color:#2A00FC;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.parni {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+a:hover {
+	color:white;
+}

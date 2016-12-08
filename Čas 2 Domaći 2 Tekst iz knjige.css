@@ -1,0 +1,37 @@
+body {
+	background: -webkit-linear-gradient(lightgray,gray,darkgray);
+      font-family:fantasy, times, serif; 
+  }
+h1 {
+	background-color:black;
+	color:white;
+}
+
+h5:hover { 
+    color: red;
+}
+h6 {
+	font-family:serif;
+}
+
+p::first-letter {
+	font-size: 25px;
+	font-weight: bold;
+}
+.d::first-line { 
+    color: red;
+} 
+.s::first-line { 
+    color: blue;
+} 
+#p::first-line { 
+    color: green;
+} 
+span {
+	font-family: arial;
+font-size: 14px;
+}
+	a:link {
+		text-decoration:none;
+font-family: serif;
+}
