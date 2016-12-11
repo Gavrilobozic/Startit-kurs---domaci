@@ -1,0 +1,23 @@
+body {
+    margin: 160px;
+}
+.kocka {
+	padding: 18px;
+	border: 1px solid #232323;
+	width:180px;
+	border-radius: 5px;
+	position:relative;
+	display: inline-block;
+	top:60px;
+	right:10px;
+	margin: 17px;
+}
+.krug {
+	width:70px;
+	height:70px;
+	border-radius: 50%;
+	background-color: black;
+	position: absolute;
+	top:-40px;
+	right:82px;
+}
