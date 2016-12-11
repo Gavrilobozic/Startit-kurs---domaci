@@ -1,0 +1,46 @@
+body {
+    margin: 160px;
+}
+header { 
+	background-color:#242424;
+	margin-top: -140px;
+}
+nav {
+	float:right;
+}
+a {
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+}
+a:hover {
+	color:yellow;
+}
+h1,nav ul li {
+	display:inline-block;
+	color:white;
+}
+h1 {
+	margin-left: 130px;
+}
+.kocka {
+	padding: 18px;
+	border: 1px solid #232323;
+	width:180px;
+	border-radius: 5px;
+	position:relative;
+	display: inline-block;
+	top:60px;
+	right:10px;
+	margin: 17px;
+	margin-top: 50px;
+}
+.krug {
+	width:70px;
+	height:70px;
+	border-radius: 50%;
+	background-color: black;
+	position: absolute;
+	top:-40px;
+	right:82px;
+}
