@@ -1,0 +1,43 @@
+
+* {
+	font-family: 'Aref Ruqaa', serif;
+}
+body {
+	background-size: cover;
+	background-image: url(http://www.t-shirtrater.com/images/vampire/officechat.jpg);
+	margin:20px 50px;
+}
+h1 {
+	position:relative;
+	margin:0px 430px 40px;
+	font-size: 45px;
+	text-shadow: 2px 2px #FF0000;
+}
+p {
+    margin:30px;
+    color: #DB9C9C;
+    
+}
+form {
+	display: block;
+	text-align: center;
+	background-color: #C11D1D;
+	width: 666px;
+	margin: 20px auto;
+	padding: 30px;
+	opacity: 0.85;
+	border: 5px groove;
+	padding: 30px;
+}
+label {
+    margin:10px;
+}
+#slika-levo {
+    float:left;
+    width: 240px;
+}
+
+#slika-desno {
+    float: right;
+    width: 240px;
+}
