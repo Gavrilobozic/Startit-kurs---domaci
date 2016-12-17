@@ -1,0 +1,66 @@
+body {
+	background-color: #DEDCD2;
+}
+#kontejner-jedan {
+	background-image: url(http://healthcoach.stylemixthemes.com/wp-content/uploads/2015/07/1_-min-795x544.jpg);
+}
+#kontejner-dva {
+	background-image: url(http://healthcoach.stylemixthemes.com/wp-content/uploads/2015/07/2_-min-795x544.jpg);
+}
+#kontejner-tri {
+	background-image: url(http://healthcoach.stylemixthemes.com/wp-content/uploads/2015/06/3_-min-795x544.jpg);
+}
+/*
+#kontejner-jedan, #kontejner-dva, #kontejner-tri {
+	display: inline-block;
+}
+*/
+
+.kontejner {
+	
+	 height: 239.41px;
+     width: 100%;
+     max-width: 350px;
+     margin: 3%;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 350px 239.41px;
+     display: inline-block;
+}
+
+.kvadrat {
+	background-color: white;
+	text-align: center;
+	width:350px;
+	height:110px;
+	font-size: 113%;
+	color:#696663;
+	position: relative;
+	top: 55%;
+	right: 0%
+	
+}
+.krug {
+	width:80px;
+	height:80px;
+	margin:1%;
+	border-radius: 50%;
+	position:absolute;
+	background-color: white;
+	display: inline-block;
+	z-index:+1;
+	text-align: center;
+	color: #3BBF37;
+	top:-23%;
+	right: 41%;
+}
+p {
+	position: absolute;
+	top: 42%;
+	right: 17%;
+}
+
+@media screen and (max-width: 800px) {
+	.kontenjer-tri {
+	}
+}
