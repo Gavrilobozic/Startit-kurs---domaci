@@ -1,0 +1,231 @@
+/*Opste*/
+body {
+	font-family: 'Lato', sans-serif;
+	background-image: url(https://a.slack-edge.com/4030/img/wired/nasa-header-image.jpg);
+	color: white;
+	background-repeat: no-repeat;
+	background-position: cover;
+
+}
+a {
+	text-decoration:none;
+	color: white;
+	cursor: pointer;
+}
+/*Navigacija*/
+#logo {
+	background-image: url(https://a.slack-edge.com/66f9/img/landing/header_logo_sprite.png); left top no-repeat;
+	background-size:103px 60px;
+	height:30px;
+	width:103px;
+	float:left;
+	margin:20px 0 0 1rem;
+}
+#gornja_navigacija {
+	list-style: none;
+	float: right;
+	text-align: right;
+} 
+#gornja_navigacija div li {
+	display: inline-block;
+}
+nav ul div, nav ul li {
+	display: inline-block;
+}
+#gornja_navigacija div li a, #gornja_navigacija li{
+	font-weight: bold;
+	opacity: 0.8;
+	padding: 14px 7px 11px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+ul #uokvirena-animacija li:hover {
+	opacity: 1;
+	background-color:rgba(0, 0, 0, 0.4);
+}
+
+nav ul li:nth-child(2n) {
+	margin: 0 8px 0;
+}
+#ksks {
+	padding: 16px 7px 14px 0px;
+}
+
+#ks {
+	border:1px solid gray;
+	background-color: #3B1D59;
+    border-radius: 15%;
+    overflow: hidden;
+    padding: 8px;
+}
+#tri-tacke {
+	border:2px solid white;
+	font-size: 18px;
+	padding: 1%;
+	vertical-align: middle;
+	height: 2.25rem;
+    width: 2.25rem;
+    text-align: center;
+    padding: 4px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    opacity: 0.8;
+}
+#tri-tacke:hover {
+	opacity: 1;
+}
+/*Glavnina*/
+
+article {
+	clear: both;
+}
+#odeljak_za_tekst {
+	vertical-align: middle;
+	margin: auto;
+	text-align: center;
+	width: 100%;
+    height: 100vh;
+    max-height: 900px;
+    background-size: cover;
+    background-position: center top;
+}
+#naslov {
+	font-size: 3.61rem;
+}
+#pricica {
+	font-size: 1.38rem;
+}
+
+/*forma*/
+
+form {
+	text-align: center;
+	background-color:rgba(0, 0, 0, 0.6);
+	margin: 2% 30%;
+	padding: 1% 0;
+	border-radius: 8px;
+	height: auto;
+	width: auto;
+}
+#imejl{
+	height: 50px;
+	width: 240px;
+	border-radius: 5px;
+	font-size: 22px;
+}
+#send {
+	margin-left: 6px;
+	height: 55px;
+	width: 184px;
+	border-radius: 5px;
+	background-color: #33A377;
+	font-size: 16px;
+    line-height: 3rem;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border:none; 
+}
+#send:hover {
+	opacity: 0.9;
+}
+#imejl, #send {
+	vertical-align: middle;
+}
+.underline{
+ 	text-decoration:underline;
+}
+#story_location {
+	text-align: right;
+	margin: 7% 4% 0 0;
+}
+#story_location a:hover {
+	text-decoration: underline;
+} 
+#zaglavlje_forme {
+	margin-top: 1%;
+}
+
+
+/*zavrsni deo*/
+.linkovi {
+	display: inline-block;
+	text-align: left;
+	list-style: none;
+	vertical-align: top;
+	font-size: 14px;
+	margin: 0 4% 2%;
+}
+.linkovi li a {
+	color: gray;
+	opacity: 0.8;
+}
+.linkovi li a:hover {
+	opacity: 1;
+}
+#cetvrti {
+	margin-right: 16%;
+}
+.zavrsni_linkovi {
+	text-align: center;
+	border-top:1px solid rgba(255,255,255,.1);
+	width: 90%; 
+    height: auto;
+    background:-webkit-linear-gradient(bottom, black 50%,transparent);
+   	padding: 5%;
+}
+li a .jedan{
+	color:black !important;
+}
+/*zaglavlje*/
+footer {
+	height: 50px;
+	background-color: #232B29;
+	vertical-align: bottom;
+}
+footer #slack_ikonica {
+	font-size: 24px;
+    margin-left:15%;
+    padding-top: 1%;
+    float: left;
+}
+footer a { 
+	color:gray;
+	opacity: 0.8;
+}
+footer a:hover {
+	opacity: 1;
+}
+#kraj_zaglavlja ul {
+	float:right;
+	margin-right: 18%;
+}
+footer #kraj_zaglavlja ul li {
+	display: inline-block;
+}
+footer #kraj_zaglavlja ul li:nth-child(2){
+	padding: 0 10px;
+}
+footer #kraj_zaglavlja ul li a {
+	color: gray;
+	list-style: none;
+	opacity: 0.8;
+}
+footer #kraj_zaglavlja ul li a:hover {
+	opacity: 1;
+}
+/*@media screen and (max-width: 800px) {
+	.zavrsni_linkovi {
+		display:list-item;
+		position: relative;
+	}
+	#story_location {
+		display: none;
+	}
+	body {
+		height: auto;
+	}
+	form {
+		position: relative;
+	}
+}*/
