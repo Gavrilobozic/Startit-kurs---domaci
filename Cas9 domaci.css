@@ -1,0 +1,16 @@
+/*Opste*/
+
+body {
+	font-family: 'Montserrat', sans-serif;	
+}
+
+
+/*Nav*/
+nav a {
+	text-decoration: none;
+}
+nav ul li a{
+	list-style: none;
+	display: inline-block;
+	float: right;
+}
