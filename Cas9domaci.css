@@ -1,0 +1,716 @@
+/*Opste*/ 
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #585858;
+    font-weight: 400;
+}
+a {
+	text-decoration:none;
+	cursor: pointer;
+	color: #343434;
+}
+
+/*Nav*/
+nav {
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	z-index: 1;
+	top: 0;
+}
+nav #logo {
+	float: left;
+	margin-left: 150px;
+	color: #343434;
+}
+nav a img, nav a h1 {
+	display: inline-block;
+	vertical-align: middle;
+}
+nav ul {
+	float: right;
+	width: auto;
+	margin-right: 110px;
+}
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 20px 15px;
+    margin: 0 5px;
+	font-size: 14px;
+}
+nav ul li a:hover {
+	color:#0099ff; 
+	transition-timing-function: ease-in-out;
+}
+nav ul li:nth-child(2n) {
+	padding: 0 6px;
+}
+nav ul li:first-child a{
+	color: #0099ff;
+}
+/*Prva slika*/
+
+section #prva_slika {
+	width: 100%;
+	height: 700px;
+	/*background-color: rgba(0,0,0,0.5);*/
+	opacity: 0.4;
+	position: absolute;
+}
+#tekst1 {
+    margin: 0 25%;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	top: 300px;
+}
+section #prva_forma input{
+	color: white;
+	font-weight: bold;
+	background-color: #188ae2;
+	border:none;
+    width: 180px;
+    height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section #prva_forma input:hover {
+	background-color: black;
+	transition-timing-function: ease-in-out;
+}
+section #tekst1 p {
+	margin: 40px 0;
+}
+
+/*crna sekcija*/
+
+#crna_sekcija {
+	color: white;
+	top: 500px;
+	position: relative;
+	padding: 70px 0 30px 0;
+	background-color: #2a2a2a;
+}
+.kocka {
+	width: 390px;
+	height: 125px;
+}
+.kontejner {
+	margin: 0 6%;
+}
+#prva_kocka, #druga_kocka, #treca_kocka {
+	display: inline-block;	
+}
+#cetvrta_kocka, #peta_kocka, #sesta_kocka {
+	display: inline-block;
+}
+.tekst {
+	margin-left: 50px;
+}
+section .kontejner .red .kocka .kutija .tekst h5 {
+	font-size: 18px;
+	margin-bottom: 0;
+}
+section .kontejner .red .kocka .kutija i {
+	font-size: 30px;
+	float: left;
+	line-height: 1;
+    text-align: center;
+    display: block;
+}
+
+/*Our services*/
+#our_services {
+	top: 540px;
+	clear: both;
+	position: relative !important;
+	text-align: center;
+}
+.kontejner1 {
+	margin: 70px 2%;
+}
+.kocka1 {
+	width: 390px;
+	height: 125px;
+}
+#prva_kocka1, #druga_kocka1, #treca_kocka1 {
+	display: inline-block;	
+}
+#cetvrta_kocka1, #peta_kocka1, #sesta_kocka1 {
+	display: inline-block;
+}
+section .kontejner1 .red1 .kocka1 .kutija1 i {
+	font-size: 30px;
+	color: #0099ff;
+}
+section .kontejner1 .red1 .kocka1 .kutija1 .tekst1 h5 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+/*Plavi kvadrat*/
+
+#plavi_kvadrat {
+	position: relative;
+	top: 540px;
+	width:100%;
+	height: 180px;
+	background:linear-gradient(to left, #1A2980 , #26D0CE); 	
+}
+#plavi_kvadrat form input {
+	float: right;
+	margin: -5.5% 5% 5% 0%;
+	background-color: white;
+	color: #188ae2;
+	font-weight: bold;
+	border:none;
+    width: 190px;
+    height: 43px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+#plavi_kvadrat form input:hover {
+	background-color: #2a2a2a;
+}
+#plavi_tekst {
+    width: 60%;
+    padding: 1.5% 0 0 9%;
+}
+#plavi_kvadrat #plavi_tekst h3 {
+	font-size: 28px;
+	color: white;
+}
+#plavi_kvadrat #plavi_tekst p {
+	font-size: 18px;
+	color: white;
+}
+
+/*Our latest products*/
+#slicoke {
+	position: relative;
+	top: 514px;
+	width:100%;
+	padding-bottom: 65px;
+}
+#slicoke {
+	background-color: #f8f8f8;
+}
+#slicoke_naslov {
+	text-align: center;
+}
+#slicoke_naslov h6 {
+	font-size: 14px;
+	padding-top: 60px;
+}
+#slicoke_naslov h3 {
+	font-size: 28px;
+}
+#slicoke ul {
+	list-style: none;
+	text-align: center;
+    margin: 60px 0 40px;
+}
+#slicoke ul li {
+	display: inline-block;
+	font-size: 14px;
+}
+#slicoke ul li a {
+	color: #9d9d9d;
+}
+#slicoke ul li:first-child a {
+	color:#000;
+}
+#slicoke ul li a:hover {
+	color:#000;
+}
+#slicoke ul li:nth-child(2n) {
+	padding: 0 8px;
+}
+
+
+
+#slicoke #kolaz .kolaz_slika img{
+	width: 443.66px;
+	height: 286.86px;
+}
+#kolaz_slika1, #kolaz_slika2, #kolaz_slika3 {
+	display: inline-block;
+}
+#kolaz_slika4, #kolaz_slika5, #kolaz_slika6 {
+	display: inline-block;
+}
+#kolaz_slika7, #kolaz_slika8, #kolaz_slika9 {
+	display: inline-block;
+}
+
+/*Team*/
+
+#team {
+	position: relative;
+	top: 514px;
+	width:100%;
+	height: auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+#team #team_naslov h6 {
+	font-size: 14px;
+	padding-top: 60px;
+}
+#team #team_naslov h3 {
+	font-size: 28px;
+	padding-bottom: 100px;
+}
+#team_kutija1, #team_kutija2, #team_kutija3 {
+	display: inline-block;
+    padding: 0 70px;
+}
+#team .team_kutija img {
+	border-radius: 50%;
+}
+#team .team_kutija h5{
+	font-size: 15px;
+}
+#team .team_kutija h5:hover {
+	color: #0099ff;
+}
+#team .team_kutija h6 {
+	font-size: 11px;
+	color: #a3a2a2;
+}
+#team .team_kutija ul {
+	list-style: none;
+    text-align: left;
+}
+#team .team_kutija ul li {
+	display: inline-block;
+	margin:0 5px;
+}
+#team .team_kutija ul li a {
+	padding: 4px;
+	border-radius: 3px;
+}
+#team .team_kutija ul li a:hover {
+	background-color: #0099ff;
+}
+
+/*odbrojavvanje*/
+
+#odbrojavanje {
+	position: relative;
+	top: 514px;
+	width:100%;
+	background-color: #f8f8f8;
+	text-align: center;
+}
+#kutija_odbrojavanje1, #kutija_odbrojavanje2, #kutija_odbrojavanje3, #kutija_odbrojavanje4 {
+	display: inline-block;
+}
+.kutija_odbrojavanje i {
+    font-size: 48px;
+    color: #23a7ff; 
+    margin-bottom: 20px;
+}
+.kutija_odbrojavanje .ko_broj {
+	color: #333;
+    font-size: 38px;
+}
+.kutija_odbrojavanje {
+	margin: 70px;
+}
+
+/*pricing*/
+
+#pricing {
+	position: relative;
+	top: 514px;
+	width:100%;
+	height: auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+#pricing #pricing_naslov h6 {
+	font-size: 14px;
+	padding-top: 60px;
+	margin-bottom: 50px;
+}
+#pricing #pricing_naslov h3 {
+	font-size: 28px;
+	padding-bottom: 40px;
+	margin-top: -25px;
+}
+
+.pricing_kutija{
+	width:390px;
+	height:526px;
+}
+
+
+.pricing_kutija, .pricing_srednji {
+	border:1px solid #f5f5f5;
+}
+#pricing .pricing_kutija .pricing_gornji {
+	padding: 20px 0 10px;
+}
+#pricing .pricing_kutija .pricing_gornji h5{
+	font-size: 18px;
+	margin-bottom: 2px;
+}
+#pricing .pricing_kutija .pricing_gornji p{
+    font-size: 14px;
+    color: #8a8a8a;  
+}
+
+#pricing .pricing_kutija .pricing_srednji .per_month{
+	font-size: 10px;
+	font-style: italic;
+	color: #8a8a8a;
+	padding: 20px 0;
+}
+#pricing .pricing_kutija .pricing_srednji span {
+	font-size: 46px;
+    color: #333;
+    margin: 10px 0 0;
+    font-style:normal;
+    font-weight:bold;
+}
+
+
+#pricing .pricing_kutija .pricing_donji ul {
+	padding-left: 0;
+}
+
+#pricing .pricing_kutija .pricing_donji ul li {
+	display: block;
+	text-align: left;
+	border-bottom: 1px solid #f5f5f5;
+    font-size: 13px;
+    color: #555;
+    padding: 7px 20px;
+    margin:3px 0;
+}
+#pricing .pricing_kutija .pricing_donji form input {
+	margin-top: 15px;
+	background-color: #333;
+	color:white;
+	font-weight: bold;
+	border:none;
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#pricing .pricing_kutija .pricing_donji form :hover {
+	color: #188ae2;
+	background-color: white;
+	border:1px solid #188ae2;
+}
+#pricing_kutija1, #pricing_kutija2, #pricing_kutija3 {
+	display: inline-block;
+} 
+
+#pricing_kutija2 {
+    -webkit-box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.10);
+}
+#pricing #pricing_kutija2 h5,#pricing #pricing_kutija2 .per_month, #pricing #pricing_kutija2 i{
+	color: #188ae2;
+}
+/*izgleda da nisu koristili hover za ovu animaciju*/
+
+/*Our blog*/
+#our_blog {
+	position: relative;
+	top: 514px;
+	width:100%;
+	height: auto;
+	text-align: center;
+	margin-bottom: 100px;
+	background-color: #f8f8f8;
+	padding:70px 0;
+}
+#our_blog #blog_naslov h6{
+	font-size: 14px;
+}
+#our_blog #blog_naslov h3{
+	font-size: 28px;
+	margin-top: -15px;
+	margin-bottom: 70px;
+}
+#our_blog #our_boks {
+	margin-top: 50px;
+}
+#our_blog #our_boks .our_kutija{
+	width:350px; 
+	height:422px;
+	background-color: white;
+	text-align: left;
+	border: solid 1px #eee;
+	margin: 0 15px;
+}
+#our_blog #our_boks .our_kutija:hover {
+	-webkit-box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.10);
+}
+#our_blog #our_boks .our_kutija img {
+	height:auto; 
+	width:100%;
+}
+#our_kutija1, #our_kutija2, #our_kutija3 {
+	display: inline-block;
+}
+#our_blog #our_boks .our_kutija h5 {
+	font-size: 16px;
+	margin: 20px 0 20px 30px;
+}
+#our_blog #our_boks .our_kutija p{
+	font-size: 14px;
+    line-height: 25px;
+}
+#our_blog #our_boks .our_kutija .our_zaglavlje {
+	background-color: #f8f8f8;
+	border-top: solid 1px #eee;
+    padding: 5px 10px;
+	width: 348px;
+	height: 36px;
+}
+#our_blog #our_boks .our_kutija a {
+	float: right;
+	margin: -20px 30px;
+	color: #1ea5ff;
+}
+#our_blog #our_boks .our_kutija a:hover {
+	color: black;
+}
+#our_blog #our_boks .our_kutija p {
+	margin: 0 0 5px 30px;
+}
+
+/*git*/
+
+#git {
+	position: relative;
+	top: 500px;
+	width:100%;
+	height: auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+#git #git_naslov h6{
+	font-size: 14px;
+}
+#git #git_naslov h3{
+	font-size: 28px;
+	margin-top: -15px;
+	margin-bottom: 70px;
+}
+#git #git_levi {
+	float: left;
+	width: 585px;
+	height: 327px;
+}
+#git #git_levi #git_email {
+	float: right;
+}
+#git #git_levi #git_ime{
+	float: left;
+}
+#git #git_levi #git_ime input, #git #git_levi #git_email input{
+	width: 170px;
+	height:40px;
+	background: #f8f8f8;
+	border: 1px solid rgba(238, 238, 238, 0.65);
+}
+#git #git_levi #git_ime span, #git #git_levi #git_email span{
+	padding:6px 12px;
+}
+#git form {
+	margin-left: 15%;
+}
+#git #git_levi #git_dugme input{
+	background: #1ea5ff;
+	color:white;
+	font-weight: bold;
+	border:none;
+    width: 99.5%;
+    height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#git #git_levi #git_dugme input:hover {
+	background:#242424;
+	border:1px solid #1ea5ff;
+}
+#git_komentar textarea{
+	width: 98.8%;
+	height:200px;
+	margin-top: 15px;
+	background-color: #f8f8f8;
+	border: 1px solid rgba(238, 238, 238, 0.65);
+}
+#git #git_desni img{
+	width:555px; 
+	height:315px;
+}
+
+/*reklama*/
+#reklama {
+	position: relative;
+	top: 500px;
+	width:100%;
+	height: auto;
+	text-align: center;
+	margin-bottom: 100px;
+	background-color: #f8f8f8;
+	padding: 65px 0;
+}
+#reklama img:nth-child(even) {
+	margin: 0 115px;
+}
+
+/*footer*/
+
+#footer {
+	position: relative;
+	top: 400px;
+	width:100%;
+	height: auto;
+	text-align: center;
+	margin-bottom: 100px;
+	background-color:#2a2a2a;
+	padding: 65px 0;
+	text-align: left;
+}
+.fnaslov {
+	color: #ffffff;
+    font-size: 16px;
+    margin: 22px 0 5px;
+    position: relative;
+}
+.fnaslov:after {
+    content: "";
+    display: block;
+    width: 35px;
+    border-bottom: 2px solid #1ea5ff;
+    margin: 20px auto 25px 0;
+    z-index: 1;
+    position: relative;
+}
+.fnaslov:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+    border-bottom: 2px solid #404040;
+}
+#footer #footer_sve:nth-child(odd) .fkutija{
+	margin: 0 20px;
+}
+#footer_prvi, #footer_drugi, #footer_treci, #footer_cetvrti {
+	display: inline-block;
+	vertical-align: middle;
+	width: 292.5px;
+	height:200px;
+}
+#footer #footer_sve h4 {
+    font-size: 18px;
+    line-height: 25px;
+}
+#footer_prvi h4{
+	font-size: 30px;
+	color: #f5f5f5;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 800;
+    padding: 0 15px;
+}
+#footer_prvi p{
+    font-size: 12px;
+    line-height: 25px;
+    color: #eee;
+}
+#footer_drugi ul {
+	padding: 0px;
+}
+#footer_drugi ul li a {
+	color: #979fa6;
+    font-size: 14px;
+    line-height: 25px;
+    opacity: 0.8;
+}
+#footer_drugi ul li a:hover {
+	opacity: 1;
+}
+#footer_drugi ul, #footer_treci ul li{
+	list-style: none;
+}
+#footer_treci ul {
+	padding-left: 0 !important;
+}	
+
+#footer_treci #flista li {
+	display: inline-flex;
+}
+#footer_treci #flista li a {
+	opacity: 0.8;
+	margin: 3px;
+}
+#footer_treci #flista li a:hover {
+	opacity: 1;
+}
+#footer_treci p{
+    color: #c9c9c9;
+    font-size: 14px;
+}
+
+#footer_cetvrti address {
+
+}
+address {
+	background-image: url(http://www.pharaohlab.com/sphinx/demo/assets/img/map.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	line-height: 27px;
+    font-size: 13px;
+    color: #ccc;
+    font-style: normal;
+}
+/*copy right*/
+#copy_right {
+	position: relative;
+	top: 300px;
+	width:100%;
+	height: auto;
+	text-align: center;
+	background-color: #1d1e20;
+	padding:7px 0;
+	color: #999;
+	font-size:12px;
+	bottom: 0;
+}
+
+@media screen and (max-width: 500px) {
+	#git #git_desni img, #git #git_levi #git_komentar textarea {
+		width:98%; 
+		height:auto;
+		margin-top: 1%;
+	}
+}
+@media screen and (max-width: 1060px) {
+	nav {
+		position: relative;
+	}
+	#plavi_kvadrat form input{
+		float: none;
+		margin: 0 50% 2%;
+	}
+	#plavi_kvadrat {
+		height: auto;
+		min-height: 180px;
+	}	
+}
+
