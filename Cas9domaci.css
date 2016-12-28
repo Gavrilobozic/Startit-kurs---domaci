@@ -1,0 +1,914 @@
+/*Opste*/ 
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #585858;
+    font-weight: 400;
+}
+a {
+	text-decoration:none;
+	cursor: pointer;
+	color: #343434;
+}
+
+/*Nav*/
+nav {
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	z-index: 1;
+	top: 0;
+}
+nav #logo {
+	float: left;
+	margin-left: 150px;
+	color: #343434;
+	line-height: 80px;
+}
+nav a img, nav a h1 {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 30px;
+}
+nav ul {
+	float: right;
+	width: auto;
+	margin-right: 110px;
+}
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 20px 15px;
+    margin: 0 5px;
+	font-size: 14px;
+}
+nav ul li, nav #dugmence {
+	display: inline-block;
+}
+nav ul li a:hover {
+	color:#0099ff; 
+	transition-timing-function: ease-in-out;
+}
+nav ul li:nth-child(2n) {
+	padding: 0 6px;
+}
+nav ul li:first-child a{
+	color: #0099ff;
+}
+nav #dugmence {
+    font-size: 23px;
+    border: solid 2px #1299d5 ;
+    padding: 6px 15px;
+    margin-top: 12px;
+    border-radius: 4px;
+	display: none;
+    float: right;
+    margin:1%;
+    background-color: white;
+}
+nav #dugmence a{
+	color: #1299d5 ;
+	opacity: 0.8;
+}
+nav #dugmence a:hover{
+	opacity:1;
+}
+/*Prva slika*/
+
+section #prva_slika {
+	width: 100%;
+	height: 700px;
+	/*background-color: rgba(0,0,0,0.5);*/
+	opacity: 0.4;
+	position: absolute;
+}
+#tekst1 {
+    margin: 0 25%;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	top: 300px;
+}
+#tekst1 h3 {
+line-height: 25px;
+}
+section #prva_forma input{
+	color: white;
+	font-weight: bold;
+	background-color: #188ae2;
+	border:none;
+    width: 180px;
+    height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section #prva_forma input:hover {
+	background-color: black;
+	transition-timing-function: ease-in-out;
+}
+section #tekst1 p {
+	margin: 40px 0;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+/*crna sekcija*/
+
+#crna_sekcija {
+	color: white;
+	top: 500px;
+	position: relative;
+	padding: 70px 0 30px 0;
+	background-color: #2a2a2a;
+}
+.kocka {
+	width: 390px;
+	height: 125px;
+}
+.kontejner {
+	margin: 0 6%;
+}
+#prva_kocka, #druga_kocka, #treca_kocka {
+	display: inline-block;	
+}
+#cetvrta_kocka, #peta_kocka, #sesta_kocka {
+	display: inline-block;
+}
+.tekst {
+	margin-left: 50px;
+}
+section .kontejner .red .kocka .kutija .tekst h5 {
+	font-size: 18px;
+	margin-bottom: 0;
+}
+section .kontejner .red .kocka .kutija i {
+	font-size: 30px;
+	float: left;
+	line-height: 1;
+    text-align: center;
+    display: block;
+}
+
+/*Our services*/
+#our_services {
+	top: 540px;
+	clear: both;
+	position: relative !important;
+	text-align: center;
+}
+.kontejner1 {
+	margin: 70px 2%;
+}
+.kocka1 {
+	width: 30%;
+	height: 125px;
+	margin: 15px 0;
+}
+.kocka1 p {
+    font-size: 14px;
+    line-height: 25px;
+}
+#prva_kocka1, #druga_kocka1, #treca_kocka1 {
+	display: inline-block;	
+}
+#cetvrta_kocka1, #peta_kocka1, #sesta_kocka1 {
+	display: inline-block;
+}
+section .kontejner1 .red1 .kocka1 .kutija1 i {
+	font-size: 30px;
+	color: #0099ff;
+}
+section .kontejner1 .red1 .kocka1 .kutija1 .tekst1 h5 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+#red2 {
+	margin-top: 5%;
+}
+/*Plavi kvadrat*/
+
+#plavi_kvadrat {
+	position: relative;
+	top: 540px;
+	width:100%;
+	height: 180px;
+	background:linear-gradient(to left, #1A2980 , #26D0CE); 	
+}
+#plavi_kvadrat #plava_forma {
+	float: right;
+    margin: -9.5% -35% 5% 0%;
+	background-color: white;
+	color: #188ae2;
+	font-weight: bold;
+	border:none;
+    width: 190px;
+    height: 30px;
+    padding-top: 13px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+#plavi_kvadrat #plava_forma:hover {
+	background-color: #2a2a2a;
+}
+#plavi_tekst {
+    width: 60%;
+    padding: 1.5% 0 0 9%;
+}
+#plavi_kvadrat #plavi_tekst h3 {
+	font-size: 28px;
+	color: white;
+}
+#plavi_kvadrat #plavi_tekst p {
+	font-size: 18px;
+	color: white;
+}
+
+/*Our latest products*/
+#slicoke {
+	position: relative;
+	top: 514px;
+	width:100%;
+	padding-bottom: 65px;
+}
+#slicoke {
+	background-color: #f8f8f8;
+}
+#slicoke_naslov {
+	text-align: center;
+}
+#slicoke_naslov h6 {
+	font-size: 14px;
+	padding-top: 60px;
+}
+#slicoke_naslov h3 {
+	font-size: 28px;
+}
+#slicoke ul {
+	list-style: none;
+	text-align: center;
+    margin: 60px 0 40px;
+}
+#slicoke ul li {
+	display: inline-block;
+	font-size: 14px;
+}
+#slicoke ul li a {
+	color: #9d9d9d;
+}
+#slicoke ul li:first-child a {
+	color:#000;
+}
+#slicoke ul li a:hover {
+	color:#000;
+}
+#slicoke ul li:nth-child(2n) {
+	padding: 0 8px;
+}
+#slicoke #kolaz .kolaz_slika img{
+	width: 443.66px;
+	height: 286.86px;
+}
+#kolaz_slika1, #kolaz_slika2, #kolaz_slika3 {
+	display: inline-block;
+}
+#kolaz_slika4, #kolaz_slika5, #kolaz_slika6 {
+	display: inline-block;
+}
+#kolaz_slika7, #kolaz_slika8, #kolaz_slika9 {
+	display: inline-block;
+}
+
+/*Team*/
+
+#team {
+	position: relative;
+	top: 514px;
+	width:100%;
+	height: auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+#team #team_naslov h6 {
+	font-size: 14px;
+	padding-top: 60px;
+}
+#team #team_naslov h3 {
+	font-size: 28px;
+	padding-bottom: 100px;
+}
+#team_kutija1, #team_kutija2, #team_kutija3 {
+	display: inline-block;
+    padding: 0 70px;
+    margin: 15px 0;
+}
+#team .team_kutija img {
+	border-radius: 50%;
+}
+#team .team_kutija h5{
+	font-size: 15px;
+}
+#team .team_kutija h5:hover {
+	color: #0099ff;
+}
+#team .team_kutija h6 {
+	font-size: 11px;
+	color: #a3a2a2;
+}
+#team .team_kutija ul {
+	list-style: none;
+    text-align: left;
+}
+#team .team_kutija ul li {
+	display: inline-block;
+	margin:0 5px;
+}
+#team .team_kutija ul li a {
+	padding: 4px;
+	border-radius: 3px;
+}
+#team .team_kutija ul li a:hover {
+	background-color: #0099ff;
+}
+
+/*odbrojavvanje*/
+
+#odbrojavanje {
+	position: relative;
+	top: 514px;
+	width:100%;
+	background-color: #f8f8f8;
+	text-align: center;
+}
+#kutija_odbrojavanje1, #kutija_odbrojavanje2, #kutija_odbrojavanje3, #kutija_odbrojavanje4 {
+	display: inline-block;
+}
+.kutija_odbrojavanje i {
+    font-size: 48px;
+    color: #23a7ff; 
+    margin-bottom: 20px;
+}
+.kutija_odbrojavanje .ko_broj {
+	color: #333;
+    font-size: 38px;
+}
+.kutija_odbrojavanje {
+	margin: 70px;
+}
+
+/*pricing*/
+
+#pricing {
+	position: relative;
+	top: 514px;
+	width:100%;
+	height: auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+#pricing #pricing_naslov h6 {
+	font-size: 14px;
+	padding-top: 60px;
+	margin-bottom: 50px;
+}
+#pricing #pricing_naslov h3 {
+	font-size: 28px;
+	padding-bottom: 40px;
+	margin-top: -25px;
+}
+
+.pricing_kutija{
+	width:390px;
+	height:526px;
+	margin: 15px 0;
+}
+#pricing_kutija1:hover ul li i, 
+#pricing_kutija1:hover .pricing_gornji h5,
+#pricing_kutija1:hover .pricing_srednji .per_month
+{
+	color:#188ae2 !important;
+}
+#pricing_kutija3:hover ul li i, 
+#pricing_kutija3:hover .pricing_gornji h5,
+#pricing_kutija3:hover .pricing_srednji .per_month
+{
+	color:#188ae2 !important;
+}
+#pricing_kutija1:hover,
+#pricing_kutija3:hover {
+	-webkit-box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.10);
+}
+.pricing_kutija, .pricing_srednji {
+	border:1px solid #f5f5f5;
+}
+#pricing .pricing_kutija .pricing_gornji {
+	padding: 20px 0 10px;
+}
+#pricing .pricing_kutija .pricing_gornji h5{
+	font-size: 18px;
+	margin-bottom: 2px;
+}
+#pricing .pricing_kutija .pricing_gornji p{
+    font-size: 14px;
+    color: #8a8a8a;  
+}
+
+#pricing .pricing_kutija .pricing_srednji .per_month{
+	font-size: 10px;
+	font-style: italic;
+	color: #8a8a8a;
+	padding: 20px 0;
+}
+#pricing .pricing_kutija .pricing_srednji span {
+	font-size: 46px;
+    color: #333;
+    margin: 10px 0 0;
+    font-style:normal;
+    font-weight:bold;
+}
+
+
+#pricing .pricing_kutija .pricing_donji ul {
+	padding-left: 0;
+}
+
+#pricing .pricing_kutija .pricing_donji ul li {
+	display: block;
+	text-align: left;
+	border-bottom: 1px solid #f5f5f5;
+    font-size: 13px;
+    color: #555;
+    padding: 7px 20px;
+    margin:3px 0;
+}
+#pricing .pricing_kutija .pricing_donji form input {
+	margin-top: 15px;
+	background-color: #333;
+	color:white;
+	font-weight: bold;
+	border:none;
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#pricing .pricing_kutija .pricing_donji form :hover {
+	color: #188ae2;
+	background-color: white;
+	border:1px solid #188ae2;
+}
+#pricing_kutija1, #pricing_kutija2, #pricing_kutija3 {
+	display: inline-block;
+} 
+
+#pricing_kutija2 {
+    -webkit-box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.10);
+}
+#pricing #pricing_kutija2 h5,#pricing #pricing_kutija2 .per_month, #pricing #pricing_kutija2 i{
+	color: #188ae2;
+}
+.pricing_kutija:nth-child(2) {
+	margin: 0 2%;
+}
+/*izgleda da nisu koristili hover za ovu animaciju*/
+
+/*Our blog*/
+#our_blog {
+	position: relative;
+	top: 514px;
+	width:100%;
+	height: auto;
+	text-align: center;
+	margin-bottom: 100px;
+	background-color: #f8f8f8;
+	padding:70px 0;
+}
+#our_blog #blog_naslov h6{
+	font-size: 14px;
+}
+#our_blog #blog_naslov h3{
+	font-size: 28px;
+	margin-top: -15px;
+	margin-bottom: 70px;
+}
+#our_blog #our_boks {
+	margin-top: 50px;
+}
+#our_blog #our_boks .our_kutija{
+	width:350px; 
+	height:422px;
+	background-color: white;
+	text-align: left;
+	border: solid 1px #eee;
+	margin: 15px;
+}
+#our_blog #our_boks .our_kutija:hover {
+	-webkit-box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.10);
+}
+#our_blog #our_boks .our_kutija img {
+	height:auto; 
+	width:100%;
+}
+#our_kutija1, #our_kutija2, #our_kutija3 {
+	display: inline-block;
+}
+#our_blog #our_boks .our_kutija h5 {
+	font-size: 16px;
+	margin: 20px 0 20px 30px;
+}
+#our_blog #our_boks .our_kutija p{
+	font-size: 14px;
+    line-height: 25px;
+}
+#our_blog #our_boks .our_kutija .our_zaglavlje {
+	background-color: #f8f8f8;
+	border-top: solid 1px #eee;
+    padding: 5px 10px;
+	width: 348px;
+	height: 36px;
+}
+#our_blog #our_boks .our_kutija a {
+	float: right;
+	margin: -20px 30px;
+	color: #1ea5ff;
+}
+#our_blog #our_boks .our_kutija a:hover {
+	color: black;
+}
+#our_blog #our_boks .our_kutija p {
+	margin: 0 0 5px 30px;
+}
+
+/*git*/
+
+#git {
+	position: relative;
+	top: 500px;
+	width:100%;
+	height: auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+#git #git_naslov h6{
+	font-size: 14px;
+}
+#git #git_naslov h3{
+	font-size: 28px;
+	margin-top: -15px;
+	margin-bottom: 70px;
+}
+#git #git_levi {
+	float: left;
+	width: 45%;
+	min-width: 424px;
+	height: 375px;
+	padding: 0 15px;
+}
+#git #git_desni iframe{
+	width:45%; 
+	min-width: 424px;
+	height:315px;
+}
+#git #git_levi #git_email {
+	float: right;
+}
+#git #git_levi #git_ime{
+	float: left;
+}
+#git #git_levi #git_ime input, #git #git_levi #git_email input{
+	width: 80%;
+	height:40px;
+	background: #f8f8f8;
+	border: 1px solid rgba(238, 238, 238, 0.65);
+	border-left: none;
+
+}
+#git #git_levi #git_ime span, #git #git_levi #git_email span{
+	padding:10.5px 12px 12.5px;
+	background: #f8f8f8;
+	border: 1px solid rgba(238, 238, 238, 0.65);
+	border-right:none;
+}
+#git form {
+	margin-left: 15%;
+}
+#git #git_levi #git_dugme input{
+	background: #1ea5ff;
+	color:white;
+	font-weight: bold;
+	border:none;
+    width: 99.5%;
+    height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#git #git_levi #git_dugme input:hover {
+	background:#242424;
+	border:1px solid #1ea5ff;
+}
+#git_komentar textarea{
+	width: 98.8%;
+	height:200px;
+	margin-top: 15px;
+	background-color: #f8f8f8;
+	border: 1px solid rgba(238, 238, 238, 0.65);
+}
+
+/*reklama*/
+#reklama {
+	position: relative;
+	top: 500px;
+	width:100%;
+	height: auto;
+	text-align: center;
+	margin-bottom: 100px;
+	background-color: #f8f8f8;
+	padding: 65px 0;
+}
+#reklama img:nth-child(even) {
+	margin: 0 10%;
+}
+
+/*footer*/
+
+#footer {
+	position: relative;
+	top: 400px;
+	width:100%;
+	height: auto;
+	text-align: center;
+	background-color:#2a2a2a;
+	padding: 65px 0;
+	text-align: left;
+}
+.fnaslov {
+	color: #ffffff;
+    font-size: 16px;
+    margin: 22px 0 5px;
+    position: relative;
+}
+.fnaslov:after {
+    content: "";
+    display: block;
+    width: 35px;
+    border-bottom: 2px solid #1ea5ff;
+    margin: 20px auto 25px 0;
+    z-index: 1;
+    position: relative;
+}
+.fnaslov:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+    border-bottom: 2px solid #404040;
+}
+#footer_prvi, #footer_drugi, #footer_treci, #footer_cetvrti {
+	display: inline-block !important;
+	vertical-align: middle;
+	width: 20%;
+	min-width:200px;
+	height:200px;
+	margin:1%;
+	padding: 0 15px;
+}
+#footer #footer_sve h4 {
+    font-size: 18px;
+    line-height: 25px;
+}
+#footer_prvi h4{
+	font-size: 30px;
+	color: #f5f5f5;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 800;
+    padding: 0 15px;
+}
+#footer_prvi p{
+    font-size: 12px;
+    line-height: 25px;
+    color: #eee;
+}
+#footer_drugi ul {
+	padding: 0px;
+}
+#footer_drugi ul li a {
+	color: #979fa6;
+    font-size: 14px;
+    line-height: 25px;
+    opacity: 0.8;
+}
+#footer_drugi ul li a:hover {
+	opacity: 1;
+}
+#footer_drugi ul, #footer_treci ul li{
+	list-style: none;
+}
+#footer_treci ul {
+	padding-left: 0 !important;
+}	
+
+#footer_treci #flista li {
+	display: inline-flex;
+}
+#footer_treci #flista li a {
+	opacity: 0.8;
+	margin: 3px;
+}
+#footer_treci #flista li a:hover {
+	opacity: 1;
+}
+#footer_treci p{
+    color: #c9c9c9;
+    font-size: 14px;
+}
+
+#footer_cetvrti address {
+
+}
+address {
+	background-image: url(http://www.pharaohlab.com/sphinx/demo/assets/img/map.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	line-height: 27px;
+    font-size: 13px;
+    color: #ccc;
+    font-style: normal;
+}
+/*copy right*/
+#copy_right {
+	position: absolute;
+	top: 90%;
+	width:100%;
+	height: 50px;
+	text-align: center;
+	background-color: #1d1e20;
+	/*padding:7px 0;*/
+	color: #999;
+	font-size:12px;
+	bottom: 0;
+}
+#copy_right p {
+margin-top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+	#git #git_levi #git_komentar textarea {
+		width:98%; 
+		height:auto;
+		min-height: 315px;
+		margin-top: 1%;
+	}
+	#git_desni {
+		width: 99%;
+		overflow: hidden;
+	}
+	#git #git_levi #git_komentar textarea {
+		width:85%; 
+		margin-left: -11%;
+	}
+	nav #dugmence {
+		margin: 5% 0% 1% 3%;
+	}
+	#tekst1 {
+		top: 230px;
+	}
+	#footer_sve {
+	    padding-bottom: 70px;
+	}
+	.kocka {
+    width: 100%;
+}
+@media screen and (max-width: 537px) {
+	#reklama_tri {
+		display: none;
+	}
+	#plavi_kvadrat {
+		height: 315px !important;
+	}
+	#git #git_levi, #git #git_desni iframe {
+		min-width: 400px !important;
+	}
+	#git_desni iframe {
+    margin-top: 45% !important;
+	}
+	#git_levi #git_komentar textarea {
+    width: 74%;
+    margin-top: 2%;
+	}
+	#git_levi #git_dugme input {
+    width: 90% !important;
+    margin-left: -20%;
+	}
+	#copy_right	{
+		top: 95% !important;
+		padding: 0;
+	}
+	.pricing_kutija {
+		width: 350px;
+	}
+}
+@media screen and (max-width: 686px) {
+	#copy_right	{
+		top: 95%;
+		padding: 0;
+	}
+}
+@media screen and (max-width: 770px) {
+	.kolaz_slika img {
+		width: 100% !important;
+		height: 100% !important;
+	}
+	.kolaz_slika {
+		width: 100%;
+	    margin-bottom: -10px;
+    	overflow: overlay;
+	}
+	.kocka1 {
+		width:50%;
+	}
+	
+}
+@media screen and (max-width: 770px) and (min-width: 537px) {
+	#git_desni iframe {
+    margin-top: 12% !important;
+	}
+}	
+@media screen and (max-width: 850px) {
+	#reklama_cetri {
+		display: none;
+	}
+	#reklama_jedan {
+		margin-left: 10%;
+	}
+}
+@media screen and (max-width: 992px) {
+	#git #git_levi, #git #git_desni iframe {
+		width:75%; 
+		height:315px;
+	}
+	#git #git_desni iframe {
+		margin-top: 8%;
+	}
+	#git_levi #git_dugme input {
+	    width: 117%;
+	}
+	#git_komentar textarea {
+		width: 116%;
+	}
+}
+@media screen and (max-width: 1060px) {	
+	#plavi_kvadrat #plava_forma{
+		float: none;
+		margin: 0 auto 10px;
+		display: block;
+	}
+	#plavi_kvadrat #plavi_tekst {
+		text-align: center;
+	    margin-left: 11%;
+	}
+	#plavi_kvadrat {
+		height: 250px;
+	}
+	nav #dugmence {
+		margin: 4% 10% 0% 3%;
+		display: block;
+	}
+	#nav_lista {
+		display: none !important;
+	}	
+	nav #dugmence, nav #logo {
+		display: block;
+		float: left;
+	}
+	nav #logo {
+	margin-left: 1%;
+	}
+	#reklama_pet {
+		display: none;
+	}
+}
+@media screen and (max-width: 1125px) {	
+	#footer_sve {
+	    padding-bottom: 20px;
+	}
+	#footer_treci, #footer_cetvrti {
+		display: block !important;
+	}
+	#copy_right	{
+		top: 94%;
+		padding: 0;
+	}
+}
+@media screen and (max-width: 1302px) {
+	#git_ime, #git_email {
+		float: none !important;
+		width: 89% !important;
+	}
+	#git_email {
+		margin-top: 2%;
+	}
+}
